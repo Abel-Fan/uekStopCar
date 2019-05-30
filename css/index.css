@@ -5,3 +5,15 @@ body{
     background-attachment: fixed;
     background-size:100% auto;
 }
+.header{
+    width:auto;
+    height:0.9rem;
+    background-color:red;
+    border-bottom:1px solid #396e95; 
+}
+.content{
+    width:auto;
+    height:15rem;
+    background-color:pink;
+    margin-top:0.44rem;
+}
