@@ -8,7 +8,7 @@ body{
 .header{
     width:auto;
     height:0.9rem;
-    background-color:red;
+    /* background-color:red; */
     border-bottom:1px solid #396e95; 
 }
 .content{
@@ -16,4 +16,29 @@ body{
     height:15rem;
     background-color:pink;
     margin-top:0.44rem;
+}
+.header .header-left{
+    width:auto;
+    height:0.9rem;
+    float:left;
+}
+.header .header-left img{
+    display:block;
+    height:.4rem;
+    margin-top:0.25rem;
+    float:left;
+}
+.header .header-left span{
+    font-size:0.36rem;
+    line-height:0.9rem;
+    float:left;
+    color:#fff;
+    padding-left:10px;
+}
+.header .header-right{
+    width:auto;
+    height:0.9rem;
+    background-color:blue;
+    float:right;
+
 }
