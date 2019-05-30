@@ -38,7 +38,12 @@ body{
 .header .header-right{
     width:auto;
     height:0.9rem;
-    background-color:blue;
     float:right;
-
+    font-size:0.2rem;
+    color:#fff;
+    text-align:center;
+    /*  文本的水平居中  */
+}
+.header .header-right div:nth-child(1){ 
+   margin-top:0.2rem;
 }
